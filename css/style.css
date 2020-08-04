@@ -1,18 +1,23 @@
 /*Font Awesome Free Icon*/
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 /*General Style*/
-body {
-  margin: 0;
-  line-height: 1.5;
-}
-
 * {
   margin: 0;
   padding: 0;
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 ::before,
