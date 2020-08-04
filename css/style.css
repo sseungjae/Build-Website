@@ -26,6 +26,11 @@ body {
 /*Aside*/
 .aside {
   width: 270px;
-  background-color: red;
+  background-color: #fdf9ff;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
 }
 /*Home*/
