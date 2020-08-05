@@ -1,0 +1,9 @@
+.aside .logo a::before {
+  border-top: 4px solid #4689ff;
+  border-left: 4px solid #4689ff;
+}
+
+.aside .logo a::after {
+  border-bottom: 4px solid #4689ff;
+  border-right: 4px solid #4689ff;
+}
