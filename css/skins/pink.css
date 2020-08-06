@@ -12,3 +12,9 @@
 .aside .nav li a.active {
   color: #4689ff;
 }
+
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after {
+  background-color: #4689ff;
+}
