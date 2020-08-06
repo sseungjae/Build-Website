@@ -82,7 +82,6 @@ body {
 }
 
 .aside .nav {
-  background-color: #ededed;
   list-style: none;
   margin: 80px 0;
   padding: 0;
@@ -98,9 +97,25 @@ body {
   color: #302e4d;
   text-decoration: none;
   line-height: 45px;
+  display: block;
+  border-bottom: 1px solid #e8dfec;
+  -webkit-transitions: ease;
+  transition: all 0.3s ease;
 }
+
+.aside .nav li a:not(.active):hover {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.aside .nav li a .fa {
+  margin-right: 3px;
+}
+
 .aside .copyright-text {
   background-color: #ededed;
+  font-size: 13px;
+  color: #7d7d7d;
+  font-weight: 400;
 }
 
 /*Home*/

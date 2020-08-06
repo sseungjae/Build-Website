@@ -7,3 +7,8 @@
   border-bottom: 4px solid #4689ff;
   border-right: 4px solid #4689ff;
 }
+
+.aside .nav li a:hover,
+.aside .nav li a.active {
+  color: #4689ff;
+}
