@@ -31,35 +31,45 @@ body {
   display: block;
   padding: 0 30px;
 }
-.section .container{
+.section .container {
   padding-top: 60px;
   padding-bottom: 70px;
 }
-.section-title{
+.section-title {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+  margin-bottom: 60px;
 }
 
-.section-title h2{
+.section-title h2 {
   font-size: 40px;
   color: #302e4d;
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   margin: 0;
-  /* background-color: #ededed; */
+  position: relative;
 }
 
-.section-title h2::before{
-  content: '';
+.section-title h2::before {
+  content: "";
   height: 4px;
   width: 50px;
-  position: absolute; 
+  position: absolute;
   top: 100%;
   left: 0;
 }
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
 
-.row{
+.row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -69,7 +79,7 @@ body {
   position: relative;
 }
 
-.padd-15{
+.padd-15 {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -89,8 +99,8 @@ body {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
-.hidden{
-  display: none!important;
+.hidden {
+  display: none !important;
 }
 /*Aside*/
 .aside {
@@ -275,4 +285,6 @@ body {
 }
 
 /* About Section8*/
-.srction-title
+.about .about-content {
+  background-color: red;
+}
