@@ -8,6 +8,7 @@
   border-right: 4px solid #4689ff;
 }
 
+.about .about-content .about-text h3 span,
 .aside .nav li a:hover,
 .aside .nav li a.active {
   color: #4689ff;
