@@ -370,7 +370,7 @@ body {
 
 
 .about .about-content .skills {
-  background: blue;
+  background: rgb(167, 167, 223);
   -ms-flex: 0 0 40%;
   flex: 0 0 40%;
   margin-top: 40px;
