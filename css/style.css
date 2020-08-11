@@ -312,11 +312,26 @@ body {
 }
 
 .about .about-content .personal-info {
-  background: red;
+  /* background: red; */
   -ms-flex: 0 0 60%;
   flex: 0 0 60%;
   margin-top: 40px;
   max-width: 60%;
+}
+
+.about .about-content .personal-info .info-item{
+
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.about .about-content .personal-info .info-item p{
+  /* background: red; */
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #302e4d;
 }
 
 .about .about-content .skills {
