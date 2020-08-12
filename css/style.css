@@ -391,7 +391,7 @@ body {
 
 .about .about-content .skills .skill-item .progress {
   background-color: #e3e3e3;
-  height: 8px;
+  height: 7px;
   border-radius: 4px;
   width: 100%;
   position: relative;
@@ -417,3 +417,20 @@ body {
   right: 0;
   top: -40px;
   font-weight: 400;
+}
+
+.about .about-content .education {
+  background-color: rgb(230, 200, 200);
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.about .about-content .experience {
+  background-color: rgb(162, 162, 206);
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
