@@ -455,3 +455,19 @@ body {
   border-radius: 10px;
   width: 100%;
 }
+
+.about .about-content .timeline .circle-dot {
+}
+
+.about .about-content .timeline .timeline-date {
+}
+
+.about .about-content .timeline .timeline-title {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.about .about-content .timeline .timeline-text {
+}
