@@ -420,7 +420,7 @@ body {
 }
 
 .about .about-content .education {
-  background-color: rgb(230, 200, 200);
+  /* background-color: rgb(230, 200, 200); */
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
@@ -428,7 +428,7 @@ body {
 }
 
 .about .about-content .experience {
-  background-color: rgb(162, 162, 206);
+  /* background-color: rgb(162, 162, 206); */
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
