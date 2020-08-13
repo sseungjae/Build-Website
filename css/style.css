@@ -487,6 +487,7 @@ body {
 .about .about-content .timeline .timeline-date {
   font-size: 14px;
   font-weight: 400;
+  margin-top: -5px;
   margin-bottom: 12px;
   color: #302e4d;
 }
