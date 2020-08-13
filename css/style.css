@@ -454,12 +454,45 @@ body {
   border: 1px solid #d4d4e3;
   border-radius: 10px;
   width: 100%;
+  position: relative;
+}
+
+.about .about-content .timeline .timeline-item {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.about .about-content .timeline .timeline-item:last-child {
+  padding-bottom: 0px;
+}
+
+.about .about-content .timeline .timeline-item::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
 }
 
 .about .about-content .timeline .circle-dot {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
 }
 
 .about .about-content .timeline .timeline-date {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #302e4d;
+}
+
+.about .about-content .timeline .timeline-date .fa {
+  margin-right: 5px;
 }
 
 .about .about-content .timeline .timeline-title {
@@ -467,7 +500,12 @@ body {
   font-size: 15px;
   margin-bottom: 15px;
   text-transform: capitalize;
+  color: #302e4d;
 }
 
 .about .about-content .timeline .timeline-text {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
 }
