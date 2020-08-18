@@ -586,6 +586,7 @@ body {
   flex: 0 0 100%;
   max-width: 100%;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .portfolio .portfolio-filter button {
@@ -601,4 +602,18 @@ body {
   white-space: nowrap;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-item {
+  background-color: red;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img {
+  width: 100%;
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  display: none;
 }
