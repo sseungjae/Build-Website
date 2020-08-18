@@ -597,4 +597,8 @@ body {
   margin: 0 10px;
   color: #302e4d;
   cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
