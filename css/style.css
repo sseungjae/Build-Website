@@ -722,3 +722,15 @@ body {
 .portfolio .portfolio-item .portfolio-info .icon .fa {
   line-height: 40px;
 }
+
+/* Blog section */
+
+.blog .blog-item {
+  /* background-color: red; */
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.blog .blog-item-inner .blog-img img{
+  width: 100%;
+  display: block;
