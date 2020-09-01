@@ -15,6 +15,10 @@
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
+.aside .nav li a.active {
+  color: #72b626;
+}
+
 .blog .blog-item-inner .blog-img .blog-date,
 .service .service-item .service-item-inner:hover .icon,
 .about .about-content .timeline .circle-dot,
