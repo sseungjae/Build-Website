@@ -10,3 +10,9 @@ function setActiveStyle(color) {
     }
   }
 }
+
+document
+  .querySelector(".toggle-style-switcher")
+  .addEventListener("click", () => {
+    document.querySelector(".style-switcher").classList.toggle("open");
+  });

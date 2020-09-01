@@ -268,7 +268,7 @@ select {
   width: 200px;
   border-radius: 50%;
   display: inline-block;
-  border: 5px solid #ec392c;
+  border: 7px solid #ffffff;
 }
 
 .home .intro h1 {
@@ -305,7 +305,7 @@ select {
   transition: all 0.3s ease;
 }
 
-.home .intreo .social-links a:hover {
+.home .intro .social-links a:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
