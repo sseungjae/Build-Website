@@ -16,7 +16,11 @@ const bodySkin = document.querySelectorAll(".body-skin"),
   totalBodySkin = bodySkin.length;
 for (let i = 0; i < totalBodySkin; i++) {
   bodySkin[i].addEventListener("change", function () {
-    console.log(this.value);
+    if (this.value === "dark") {
+      document.body.className = "dark";
+    } else {
+      document.body.className = "";
+    }
   });
 }
 
