@@ -47,5 +47,7 @@ for (let i = 0; i < totalNavList; i++) {
 }
 
 function showSection(element) {
-  console.log(element.getAttribute("href"));
+  const href = element.getAttribute("href").split("#");
+  target = href[1];
+  console.log(target);
 }
