@@ -31,7 +31,9 @@ for (let i = 0; i < totalFilterBtn; i++) {
 // Aside Navbar
 const nav = document.querySelector(".nav");
 navList = nav.querySelectorAll("li");
-totalNavList = navList.length;
+(totalNavList = navList.length),
+  (allSection = document.querySelectorAll(".section")),
+  (totalSection = allSection.length);
 
 //a 태그를 가진 nav 리스트를 전부 부를 수 있다 a href=""
 for (let i = 0; i < totalNavList; i++) {
@@ -47,7 +49,10 @@ for (let i = 0; i < totalNavList; i++) {
 }
 
 function showSection(element) {
-  const href = element.getAttribute("href").split("#");
-  target = href[1];
-  console.log(target);
+  for (let i = 0; i < totalSection; i++) {
+    allSection[i].classList.remove("active");
+  }
+  const target = element.getAttribute("href").split("#")[1];
+
+  document.querySelector("#" + target).classList.add("active");
 }
