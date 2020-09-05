@@ -40,6 +40,9 @@ for (let i = 0; i < totalNavList; i++) {
   const a = navList[i].querySelector("a");
   a.addEventListener("click", function () {
     for (let j = 0; j < totalNavList; j++) {
+      if (navList[j].querySelector("a").classList.contains("active")) {
+        console.log("back-section" + navList[j].querySelector("a"));
+      }
       navList[j].querySelector("a").classList.remove("active");
     }
     this.classList.add("active");
