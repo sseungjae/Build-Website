@@ -46,6 +46,11 @@ select {
   overflow-y: auto;
   opacity: 1;
 }
+
+.section.back-section {
+  z-index: 1;
+}
+
 .section.active {
   opacity: 1;
   z-index: 2;
@@ -215,7 +220,7 @@ select {
 .aside .nav-toggler {
   height: 40px;
   width: 45px;
-  border: 1px solid red /*#d4d4e3*/;
+  border: 1px solid #d4d4e3;
   cursor: pointer;
   position: fixed;
   left: 300px;
@@ -996,11 +1001,16 @@ body.dark .shadow-dark {
 /* Responsive */
 
 @media (max-width: 1199px) {
+  .aside .nav-toggler {
+    display: -ms-flexbox;
+    display: flex;
+    left: 30px;
+  }
   .aside {
     left: -270px;
   }
-  .main-content {
-    padding-left: 0;
+  .section {
+    left: 0;
   }
   .about .about-content .personal-info .info-item p span {
     display: block;
