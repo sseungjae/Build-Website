@@ -103,6 +103,8 @@ document.querySelector(".hire-me").addEventListener("click", function () {
   // console.log(sectionIndex);
   showSection(this);
   updateNav(this);
+  removeBackSectionClass();
+  addBackSectionClass(sectionIndex);
 });
 
 const navTogglerBtn = document.querySelector(".nav-toggler"),
