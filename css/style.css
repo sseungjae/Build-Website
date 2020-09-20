@@ -901,7 +901,7 @@ select {
   opacity: 1;
 }
 
-.portfolio .portfolio-item-inner:active .portfolio-info {
+.portfolio .portfolio-item-inner:active {
   opacity: 1;
 }
 
