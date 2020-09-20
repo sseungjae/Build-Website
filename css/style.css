@@ -901,7 +901,7 @@ select {
   opacity: 1;
 }
 
-.portfolio .portfolio-item-inner:active .portfolio-info {
+.portfolio .pportfolio-img:active .portfolio-info {
   opacity: 1;
 }
 
@@ -923,7 +923,7 @@ select {
   opacity: 1;
 }
 
-.portfolio .portfolio-item-inner:active .portfolio-info h4 {
+.portfolio .portfolio-img:active .portfolio-info h4 {
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
   opacity: 1;
@@ -951,7 +951,7 @@ select {
   transform: translateX(0px);
 }
 
-.portfolio .portfolio-item-inner:active .portfolio-info .icon {
+.portfolio .portfolio-img:active .portfolio-info .icon {
   opacity: 1;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
