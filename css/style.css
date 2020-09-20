@@ -901,7 +901,7 @@ select {
   opacity: 1;
 }
 
-.portfolio .portfolio-img:active .portfolio-info {
+.portfolio .portfolio-item-inner:active .portfolio-info {
   opacity: 1;
 }
 
@@ -918,6 +918,12 @@ select {
 }
 
 .portfolio .portfolio-item-inner:hover .portfolio-info h4 {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.portfolio .portfolio-item-inner:active .portfolio-info h4 {
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
   opacity: 1;
@@ -940,6 +946,12 @@ select {
 }
 
 .portfolio .portfolio-item-inner:hover .portfolio-info .icon {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.portfolio .portfolio-item-inner:active .portfolio-info .icon {
   opacity: 1;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
