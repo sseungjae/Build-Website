@@ -901,6 +901,10 @@ select {
   opacity: 1;
 }
 
+.portfolio .portfolio-item-inner:active .portfolio-info {
+  opacity: 1;
+}
+
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   font-weight: 700;
